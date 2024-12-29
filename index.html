@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة التداول</title>
+    <style>
+        body {
+            font-family: 'Tahoma', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2b0e12;
+			
+        }
+
+        header {
+            background-color: #2b0e12;
+            
+            padding: 20px;
+            text-align: center;
+			
+        }
+
+        header img {
+            max-width: 100px;
+            margin-bottom: 10px;
+			
+			
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #2b0e12;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+			 transition: 0.3s ease-in-out;
+			
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: #c59707;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 { color: #c59707;}
+		
+		h2 { color: #2b0e12;}
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #2b0e12;
+            color: #FFD700;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+           transition: transform 0.3s ease, box-shadow 0.3s ease;
+		  
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact-form button {
+            background-color: #2b0e12;
+            color: #FFD700;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .contact-form button:hover {
+            background-color: #FFD700;
+            color: #2b0e12;
+        }
+		 /* خدماتنا ستايل */
+        #services ul {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        #services ul li {
+            background-color: #ffffff;
+            color: #2b0e12;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #services ul li:hover {
+            background-color: #2b0e12;
+            color: #FFD700;
+            cursor: pointer;
+            transform: scale(1.05);
+            transition: 0.3s ease-in-out;
+        }
+		        /* منصاتنا ستايل */
+        #platforms {
+            background-color: #c59707;
+           
+        }
+
+        #platforms ul li {
+            list-style: none;
+            margin: 10px 0;
+        }
+
+        #platforms ul li a {
+            color: #660000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        #platforms ul li a:hover {
+            text-decoration: underline;
+        }
+		
+    </style>
+</head>
+<body style="text-align:center;">
+    <header>
+        <img src="oro1.jpg" alt="شعار الشركة">
+        <h1><q>استثمر بثقة,تداول بذكاء </q> </h1>
+    </header>
+    
+    <nav>
+        <a href="#services">خدماتنا</a>
+        <a href="#platforms">منصاتنا</a>
+        <a href="#testimonials">تجارب العملاء</a>
+        <a href="#about">من نحن</a>
+        <a href="#contact">تواصل معنا</a>
+    </nav>
+<section id="about">
+        <h2>من نحن؟</h2>
+        <p>فريق عماني مكون من محترفين في مجال التداول,نساعدك على التعلم في مجال التداول بصورة سهلة وصحيحة.</p>
+    </section>
+    <section id="services">
+        <h2>خدماتنا</h2>
+        <ul>
+            <li>قروب توصيات عام</li>
+            <li>قروب توصيات VIP</li>
+            <li>قروب توصيات Sniper</li>
+            <li>شروحات على منصة ديسكورد</li>
+        </ul>
+    </section>
+
+    <section id="platforms">
+        <h2>منصاتنا</h2>
+        <p>اكتشف منصاتنا المتقدمة التي توفر تجربة تداول مميزة وفعّالة.</p>
+        <ul>
+		<li><a href="https://www.xtb.com" target="_blank"> XTB</a></li>
+            <li><a href="https://www.exness.com" target="_blank"> Exness</a></li>
+          
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <h2>تجارب العملاء</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="oro5.jpg" alt="تجربة عميل 1">
+                
+            </div>
+            <div class="card">
+                <img src="oro3.jpg" alt="تجربة عميل 2">
+              
+            </div>
+			<div class="card">
+                <img src="oro4.jpg" alt="تجربة عميل 1">
+                
+           
+        </div>
+    </section>
+
+    
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        
+        <p>instagram: <a href="https://www.instagram.com/orotrading.om" target="_blank">@orotrading.om</a></p>
+        <p>phone:<a href="tel:+968 9249 5859">+968 9249 5859</a>
+		:<a href="tel:+968 96611987">+968 9661 1987</a></p>
+        <p>Email:<a href="mailto:orotrading.om@gmail.com"> orotrading.om@gmail.com</a></p>
+    </section>
+
+    <footer>
+        &copy;نحن شريكك المالي المثالي, تحكم بمستقبلك المالي, تداول معنااليوم
+    </footer>
+</body>
+</html>
